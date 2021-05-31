@@ -1,0 +1,6 @@
+# Dependencies
+package-lock.json
+node_modules
+
+# Dumb
+.DS_Store
