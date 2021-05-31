@@ -1,0 +1,38 @@
+{
+  "private": true,
+  "name": "dev-tools",
+  "description": "dev-tools",
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "scripts": {
+    "changeset": "changeset",
+    "prettier": "prettier \"**/*.{js,ts,md,json}\" --write",
+    "version": "changeset version",
+    "release": "changeset publish"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,ts,md,json}": [
+      "yarn run prettier"
+    ]
+  },
+  "prettier": "@buames/prettier-config",
+  "dependencies": {
+    "@changesets/cli": "2.16.0"
+  },
+  "author": "buames",
+  "bugs": "https://github.com/buames/dev-tools/issues",
+  "homepage": "https://github.com/buames/dev-tools#README.md",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:buames/dev-tools.git"
+  },
+  "license": "MIT"
+}

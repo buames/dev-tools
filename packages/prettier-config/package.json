@@ -1,0 +1,17 @@
+{
+  "name": "@buames/prettier-config",
+  "version": "0.0.0",
+  "description": "@buames/prettier-config",
+  "main": "prettier.json",
+  "files": [
+    "prettier.json"
+  ],
+  "author": "buames",
+  "homepage": "https://github.com/buames/dev-tools#README.md",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:buames/dev-tools.git",
+    "directory": "packages/prettier-config"
+  },
+  "license": "MIT"
+}
