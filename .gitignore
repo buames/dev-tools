@@ -2,5 +2,15 @@
 package-lock.json
 node_modules
 
+# Directories
+dist
+dts
+
 # Dumb
 .DS_Store
+
+# Logs
+*.log
+
+# TypeScript
+*.tsbuildinfo

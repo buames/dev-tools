@@ -1,0 +1,42 @@
+{
+  "name": "@buames/eslint-config",
+  "version": "0.0.1",
+  "description": "@buames/eslint-config",
+  "main": "dist/index.js",
+  "types": "dts/index.d.ts",
+  "files": [
+    "dist",
+    "dts",
+    "esm"
+  ],
+  "engines": {
+    "node": ">=10.3.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.0.0"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "4.26.0",
+    "@typescript-eslint/parser": "4.26.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "8.3.0",
+    "eslint-plugin-import": "2.23.4",
+    "eslint-plugin-jest": "24.3.6",
+    "eslint-plugin-jsx-a11y": "6.4.1",
+    "eslint-plugin-react": "7.24.0",
+    "eslint-plugin-react-hooks": "4.2.0",
+    "eslint-plugin-unicorn": "32.0.1"
+  },
+  "devDependencies": {
+    "@types/eslint": "7.2.12",
+    "eslint": "7.27.0"
+  },
+  "author": "buames",
+  "homepage": "https://github.com/buames/dev-tools#README.md",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:buames/dev-tools.git",
+    "directory": "packages/eslint-config"
+  },
+  "license": "MIT"
+}
