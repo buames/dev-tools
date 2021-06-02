@@ -34,11 +34,17 @@
   },
   "prettier": "@buames/prettier-config",
   "eslintConfig": {
-    "extends": "@buames/eslint-config"
+    "root": true,
+    "extends": [
+      "@buames/eslint-config",
+      "@buames/eslint-config/node"
+    ]
   },
   "dependencies": {
     "@changesets/cli": "2.16.0",
     "eslint": "7.27.0",
+    "husky": "6.0.0",
+    "lint-staged": "11.0.0",
     "packemon": "0.16.4",
     "prettier": "2.3.0",
     "typescript": "4.3.2"
