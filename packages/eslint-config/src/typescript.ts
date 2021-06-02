@@ -46,6 +46,7 @@ const config: Linter.Config = {
           'warn',
           { functions: false, classes: false, variables: false, typedefs: false },
         ],
+        '@typescript-eslint/no-var-requires': 'off',
       },
     },
   ],
