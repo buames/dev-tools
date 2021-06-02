@@ -1,6 +1,6 @@
 {
   "name": "@buames/prettier-config",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "@buames/prettier-config",
   "main": "prettier.json",
   "files": [

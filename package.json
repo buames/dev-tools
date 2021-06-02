@@ -8,8 +8,14 @@
     ]
   },
   "scripts": {
+    "prune": "rm -rf ./{,*/,**/*/}{node_modules,coverage,*.log,*.tsbuildinfo,dist,dts}",
+    "clean": "packemon clean",
+    "build": "packemon build --declaration=standard",
+    "pack": "NODE_ENV=production packemon pack --declaration=standard",
     "changeset": "changeset",
+    "eslint": "eslint . --ext .js,.ts --max-warnings=0",
     "prettier": "prettier \"**/*.{js,ts,md,json}\" --write",
+    "types": "tsc --build",
     "version": "changeset version",
     "release": "changeset publish"
   },
@@ -19,13 +25,23 @@
     }
   },
   "lint-staged": {
+    "**/*.{ts,js}": [
+      "yarn run eslint --fix"
+    ],
     "*.{js,ts,md,json}": [
       "yarn run prettier"
     ]
   },
   "prettier": "@buames/prettier-config",
+  "eslintConfig": {
+    "extends": "@buames/eslint-config"
+  },
   "dependencies": {
-    "@changesets/cli": "2.16.0"
+    "@changesets/cli": "2.16.0",
+    "eslint": "7.27.0",
+    "packemon": "0.16.4",
+    "prettier": "2.3.0",
+    "typescript": "4.3.2"
   },
   "author": "buames",
   "bugs": "https://github.com/buames/dev-tools/issues",
