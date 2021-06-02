@@ -2,10 +2,11 @@
   "extends": "../../tsconfig.options.json",
   "compilerOptions": {
     "declarationDir": "dts",
-    "outDir": "dist",
-    "rootDir": "src"
+    "outDir": "lib",
+    "rootDir": "src",
+    "emitDeclarationOnly": true
   },
-  "exclude": ["dist"],
+  "exclude": ["lib", "dts"],
   "include": ["src/**/*"],
   "references": []
 }

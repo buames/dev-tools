@@ -19,7 +19,7 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "useDefineForClassFields": true,
-    "removeComments": false,
+    "resolveJsonModule": false,
     "strict": true,
     "target": "ES2020"
   }
