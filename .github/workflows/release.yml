@@ -27,10 +27,16 @@ jobs:
       - name: Install Dependencies
         run: yarn --frozen-lockfile
 
-      - name: Create Release Pull Request or Publish to npm
+      - name: Create Release Pull Request
         uses: changesets/action@master
-        with:
-          publish: yarn release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      # Disabling auto publish until the `next` workflow is better understood ...
+      # - name: Create Release Pull Request or Publish to npm
+      #   uses: changesets/action@master
+      #   with:
+      #     publish: yarn release
+      #   env:
+      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      #     NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
