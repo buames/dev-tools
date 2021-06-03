@@ -1,6 +1,5 @@
 {
   "extends": "@buames/tsconfig/workspaces.json",
-  "compilerOptions": {},
   "files": [],
-  "references": [{ "path": "packages/eslint-config" }]
+  "references": [{ "path": "packages/eslint-config" }, { "path": "packages/prettier-config" }]
 }
