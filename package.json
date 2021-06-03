@@ -10,7 +10,7 @@
   "scripts": {
     "prune": "rm -rf ./{,*/,**/*/}{node_modules,coverage,*.log,*.tsbuildinfo,dist,dts}",
     "clean": "packemon clean",
-    "build": "packemon build --declaration=standard",
+    "build": "yarn clean && packemon build --declaration=standard",
     "pack": "NODE_ENV=production packemon pack --declaration=standard",
     "changeset": "changeset",
     "eslint": "eslint . --ext .js,.ts --max-warnings=0",
