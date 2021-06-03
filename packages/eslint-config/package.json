@@ -11,7 +11,7 @@
     "src/**/*.{ts,tsx,json}"
   ],
   "engines": {
-    "node": ">=10.3.0"
+    "node": "12.* || 14.* || >= 16.*"
   },
   "peerDependencies": {
     "eslint": ">=7.0.0"
