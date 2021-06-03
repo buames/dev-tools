@@ -1,0 +1,9 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "@buames with react",
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "lib": ["DOM"],
+    "jsx": "react"
+  }
+}

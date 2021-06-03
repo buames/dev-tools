@@ -1,0 +1,19 @@
+{
+  "name": "@buames/tsconfig",
+  "version": "0.0.1",
+  "description": "@buames/tsconfig",
+  "main": "tsconfig.json",
+  "files": [
+    "tsconfig.json",
+    "react.json",
+    "workspaces.json"
+  ],
+  "author": "buames",
+  "homepage": "https://github.com/buames/dev-tools#README.md",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:buames/dev-tools.git",
+    "directory": "packages/tsconfig"
+  },
+  "license": "MIT"
+}

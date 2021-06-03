@@ -1,5 +1,5 @@
 {
-  "extends": "./tsconfig.options.json",
+  "extends": "@buames/tsconfig/workspaces.json",
   "compilerOptions": {},
   "files": [],
   "references": [{ "path": "packages/eslint-config" }]
