@@ -2,7 +2,7 @@
   "extends": "@buames/tsconfig/workspaces.json",
   "compilerOptions": {
     "declarationDir": "dts",
-    "outDir": "lib",
+    "outDir": "dts",
     "rootDir": "src",
     "emitDeclarationOnly": true
   },
