@@ -17,7 +17,7 @@
     "prettier": "prettier \"**/*.{js,ts,md,json}\" --write",
     "types": "tsc --build",
     "version": "changeset version",
-    "release": "changeset publish"
+    "release": "yarn build && changeset publish"
   },
   "husky": {
     "hooks": {
