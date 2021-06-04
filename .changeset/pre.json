@@ -1,0 +1,13 @@
+{
+  "mode": "pre",
+  "tag": "next",
+  "initialVersions": {
+    "@buames/eslint-config": "0.0.1",
+    "@buames/prettier-config": "0.0.1",
+    "@buames/tsconfig": "0.0.1"
+  },
+  "changesets": [
+    "rare-pears-live",
+    "short-gorillas-approve"
+  ]
+}
