@@ -17,6 +17,9 @@ const config: Linter.Config = {
     'unicorn/import-style': 'off',
     'unicorn/no-useless-undefined': 'off',
 
+    // Doesn't work with naming preferences
+    'unicorn/filename-case': 'off',
+
     // Allow any API
     'unicorn/no-array-for-each': 'off',
     'unicorn/no-array-reduce': 'off',
