@@ -36,8 +36,19 @@ const config: Linter.Config = {
     // Avoid deprecated APIs
     'import/no-deprecated': 'error',
 
-    // Prefer named exports
-    'import/no-anonymous-default-export': 'error',
+    // Prefer named exports, with exception of a default export using an object, array, or literal
+    'import/no-anonymous-default-export': [
+      'error',
+      {
+        allowArray: true,
+        allowArrowFunction: false,
+        allowAnonymousClass: false,
+        allowAnonymousFunction: false,
+        allowCallExpression: true,
+        allowLiteral: true,
+        allowObject: true,
+      },
+    ],
     'import/no-default-export': 'off',
     'import/no-named-export': 'off',
     'import/prefer-default-export': 'off',
