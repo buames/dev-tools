@@ -13,6 +13,9 @@ const config: Config.InitialOptions = {
   roots: ['<rootDir>/packages'],
   setupFilesAfterEnv: ['<rootDir>/tests/setup.ts'],
   testEnvironment: 'node',
+  transform: {
+    '^.+\\.tsx?$': 'ts-jest',
+  },
   verbose: true,
 };
 
