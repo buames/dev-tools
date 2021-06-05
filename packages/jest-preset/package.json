@@ -1,0 +1,37 @@
+{
+  "name": "@buames/jest-preset",
+  "version": "0.0.0",
+  "description": "@buames/jest-preset",
+  "main": "./lib/index.js",
+  "types": "./dts/index.d.ts",
+  "files": [
+    "dts/**/*.d.ts",
+    "lib/**/*.{js,map}",
+    "src/**/*.{ts,tsx,json}"
+  ],
+  "peerDependencies": {
+    "jest": ">=27.0.0",
+    "ts-jest": ">=27.0.0"
+  },
+  "dependencies": {
+    "@types/jest": "26.0.23"
+  },
+  "devDependencies": {
+    "jest": "27.0.4"
+  },
+  "packemon": {
+    "inputs": {
+      "index": "src/index.ts"
+    },
+    "platform": "node",
+    "format": "lib"
+  },
+  "author": "buames",
+  "homepage": "https://github.com/buames/dev-tools#README.md",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:buames/dev-tools.git",
+    "directory": "packages/jest-preset"
+  },
+  "license": "MIT"
+}

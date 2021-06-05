@@ -1,0 +1,12 @@
+{
+  "extends": "@buames/tsconfig/workspaces.json",
+  "compilerOptions": {
+    "declarationDir": "dts",
+    "outDir": "dts",
+    "rootDir": "src",
+    "emitDeclarationOnly": true
+  },
+  "exclude": ["lib", "dts"],
+  "include": ["src/**/*"],
+  "references": []
+}
