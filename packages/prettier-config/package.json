@@ -9,6 +9,9 @@
     "lib/**/*.{js,map}",
     "src/**/*.{ts,tsx,json}"
   ],
+  "peerDependencies": {
+    "prettier": ">=2.0.0"
+  },
   "devDependencies": {
     "@types/prettier": "2.2.3"
   },

@@ -6,8 +6,5 @@
     "@buames/prettier-config": "0.0.1",
     "@buames/tsconfig": "0.0.1"
   },
-  "changesets": [
-    "rare-pears-live",
-    "short-gorillas-approve"
-  ]
+  "changesets": ["rare-pears-live", "short-gorillas-approve"]
 }
