@@ -2,11 +2,9 @@
   "private": true,
   "name": "dev-tools",
   "description": "dev-tools",
-  "workspaces": {
-    "packages": [
-      "packages/*"
-    ]
-  },
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
     "prune": "rm -rf ./{,*/,**/*/}{node_modules,coverage,*.log,*.tsbuildinfo,dist,dts}",
     "clean": "packemon clean",
