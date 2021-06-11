@@ -4,7 +4,15 @@
   "initialVersions": {
     "@buames/eslint-config": "0.0.1",
     "@buames/prettier-config": "0.0.1",
-    "@buames/tsconfig": "0.0.1"
+    "@buames/tsconfig": "0.0.1",
+    "@buames/jest-preset": "0.0.0"
   },
-  "changesets": ["rare-pears-live", "short-gorillas-approve"]
+  "changesets": [
+    "chilly-badgers-complain",
+    "flat-lobsters-pump",
+    "honest-dancers-approve",
+    "rare-pears-live",
+    "short-gorillas-approve",
+    "spotty-plants-eat"
+  ]
 }

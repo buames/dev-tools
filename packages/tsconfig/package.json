@@ -1,6 +1,6 @@
 {
   "name": "@buames/tsconfig",
-  "version": "0.0.1",
+  "version": "0.0.2-next.0",
   "description": "@buames/tsconfig",
   "main": "tsconfig.json",
   "files": [
