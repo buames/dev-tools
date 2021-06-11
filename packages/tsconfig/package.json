@@ -8,6 +8,9 @@
     "react.json",
     "workspaces.json"
   ],
+  "peerDependencies": {
+    "typescript": ">=4.0.0"
+  },
   "author": "buames",
   "homepage": "https://github.com/buames/dev-tools#README.md",
   "repository": {

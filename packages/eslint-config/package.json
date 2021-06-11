@@ -14,7 +14,8 @@
     "node": "12.* || 14.* || >= 16.*"
   },
   "peerDependencies": {
-    "eslint": ">=7.0.0"
+    "eslint": ">=7.0.0",
+    "prettier": ">=2.0.0"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "4.26.0",
@@ -28,8 +29,7 @@
     "eslint-plugin-unicorn": "32.0.1"
   },
   "devDependencies": {
-    "@types/eslint": "7.2.12",
-    "eslint": "7.27.0"
+    "@types/eslint": "7.2.13"
   },
   "packemon": {
     "inputs": {
