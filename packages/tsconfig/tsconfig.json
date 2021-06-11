@@ -5,7 +5,7 @@
     "allowJs": false,
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
-    "experimentalDecorators": false,
+    "experimentalDecorators": true,
     "declaration": true,
     "declarationMap": false,
     "forceConsistentCasingInFileNames": true,
