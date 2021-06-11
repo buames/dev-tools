@@ -10,7 +10,8 @@ const config: Linter.Config = {
     'multiline-comment-style': 'off',
 
     // Prefer object destructuring
-    'prefer-destructuring': ['error', { object: true, array: false }],
+    // 'prefer-destructuring': ['error', { object: true, array: false }],
+    'prefer-destructuring': 'off',
 
     // Avoid bad or problematic syntax/patterns
     'no-constant-condition': 'error',
