@@ -32,10 +32,10 @@ module.exports = {
 
 Not included by default, these additional preset configs can also be extended.
 
-| Name    | Description                                                                                 |
-| ------- | ------------------------------------------------------------------------------------------- |
-| [node]  | Sets the environment to Node.js and enabled node specific rules using [eslint-plugin-node]. |
-| [react] | _... todo_                                                                                  |
+| Name    | Description                                                                                    |
+| ------- | ---------------------------------------------------------------------------------------------- |
+| [node]  | Sets the environment to Node.js and enabled node specific rules using [eslint-plugin-node].    |
+| [react] | Sets the environment to Browser and enabled React specific rules using [eslint-config-airbnb]. |
 
 Be sure to include the full scope name when extending these additional presets.
 
@@ -55,6 +55,7 @@ module.exports = {
 [node]: src/node.ts
 [react]: src/react.ts
 [eslint]: https://eslint.org
+[eslint-config-airbnb]: https://github.com/airbnb/javascript
 [eslint-plugin-import]: https://github.com/benmosher/eslint-plugin-import
 [eslint-plugin-jest]: https://github.com/jest-community/eslint-plugin-jest
 [eslint-plugin-node]: https://github.com/mysticatea/eslint-plugin-node

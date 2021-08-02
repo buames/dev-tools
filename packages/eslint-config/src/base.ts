@@ -1,7 +1,6 @@
 import type { Linter } from 'eslint';
 
 const config: Linter.Config = {
-  extends: ['airbnb-base'],
   rules: {
     // Annoying
     'class-methods-use-this': 'off',
