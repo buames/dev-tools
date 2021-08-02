@@ -1,6 +1,6 @@
 {
   "name": "@buames/prettier-config",
-  "version": "0.0.2-next.1",
+  "version": "0.0.2-next.2",
   "description": "@buames/prettier-config",
   "main": "./lib/index.js",
   "types": "./dts/index.d.ts",

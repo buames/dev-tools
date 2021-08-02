@@ -1,5 +1,12 @@
 # @buames/eslint-config
 
+## 0.0.2-next.2
+
+### Patch Changes
+
+- 81c8ee0: Add `react` eslint config
+- 2e0dcce: Upgrade deps to latest
+
 ## 0.0.2-next.1
 
 ### Patch Changes
