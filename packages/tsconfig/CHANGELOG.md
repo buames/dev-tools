@@ -1,5 +1,12 @@
 # @buames/tsconfig
 
+## 0.0.2-next.1
+
+### Patch Changes
+
+- 004f397: Add tsconfig for nextjs projects
+- 004f397: Enable `noImplicitOverride` tsconfig option
+
 ## 0.0.2-next.0
 
 ### Patch Changes
