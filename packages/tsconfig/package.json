@@ -4,8 +4,9 @@
   "description": "@buames/tsconfig",
   "main": "tsconfig.json",
   "files": [
-    "tsconfig.json",
+    "nextjs.json",
     "react.json",
+    "tsconfig.json",
     "workspaces.json"
   ],
   "peerDependencies": {
