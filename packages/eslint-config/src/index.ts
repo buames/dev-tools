@@ -5,6 +5,7 @@ const ECMA_VERSION = 2020;
 
 const config: Linter.Config = {
   extends: [
+    'airbnb-base',
     require.resolve('./base.js'),
     require.resolve('./typescript.js'),
     require.resolve('./import.js'),

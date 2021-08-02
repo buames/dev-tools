@@ -27,13 +27,15 @@ const config: Linter.Config = {
     'unicorn/no-null': 'off',
     'unicorn/prefer-regexp-test': 'off',
 
-    // Sometimes the code is clearer with the lonely if
+    // Sometimes it's more clear with the lonely if
     'unicorn/no-lonely-if': 'off',
 
-    // Is caught/handled by TypeScript instead
+    // Caught, handled by TypeScript
     'unicorn/no-array-callback-reference': 'off',
 
     // Not widely available
+    'unicorn/prefer-at': 'off',
+    'unicorn/prefer-object-has-own': 'off',
     'unicorn/prefer-string-replace-all': 'off',
 
     // Prefer modern APIs
