@@ -16,6 +16,10 @@ const config: Linter.Config = {
   env: {
     [`es${ECMA_VERSION}`]: true,
   },
+  globals: {
+    [`__DEV__`]: 'readonly',
+    [`__PROD__`]: 'readonly',
+  },
   parserOptions: {
     sourceType: 'module',
     ecmaVersion: ECMA_VERSION,
