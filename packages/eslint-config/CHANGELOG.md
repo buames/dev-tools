@@ -1,5 +1,13 @@
 # @buames/eslint-config
 
+## 0.0.2-next.3
+
+### Patch Changes
+
+- bc8ac62: Add `browser` specific config
+- bc8ac62: Migrate to own react config to avoid override conflicts
+- bc8ac62: Add `__DEV__` and `__PROD__` as globals
+
 ## 0.0.2-next.2
 
 ### Patch Changes
