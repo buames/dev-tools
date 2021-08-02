@@ -4,6 +4,7 @@ const config: eslint.Linter.Config = {
   extends: ['plugin:node/recommended'],
   plugins: ['node'],
   env: {
+    browser: false,
     node: true,
   },
   rules: {
