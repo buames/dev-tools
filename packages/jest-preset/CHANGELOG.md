@@ -1,5 +1,12 @@
 # @buames/jest-preset
 
+## 0.0.1
+
+### Patch Changes
+
+- a622d8c: Update all deps to latest
+- 2e0dcce: Upgrade deps to latest
+
 ## 0.0.1-next.1
 
 ### Patch Changes

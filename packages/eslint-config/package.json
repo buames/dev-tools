@@ -1,6 +1,6 @@
 {
   "name": "@buames/eslint-config",
-  "version": "0.0.2-next.3",
+  "version": "0.0.2",
   "description": "@buames/eslint-config",
   "main": "./lib/index.js",
   "types": "./dts/index.d.ts",

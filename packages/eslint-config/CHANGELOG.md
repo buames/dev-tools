@@ -1,5 +1,21 @@
 # @buames/eslint-config
 
+## 0.0.2
+
+### Patch Changes
+
+- f49c0d5: All named functions for prefer-arrow-callback rule
+- 302aecd: Disable `prefer-destructuring`
+- a622d8c: Update all deps to latest
+- bc8ac62: Add `browser` specific config
+- bc8ac62: Migrate to own react config to avoid override conflicts
+- 80bea62: unicorn: Turn off `unicorn/filenames`
+- 80bea62: typescript: Turn off `@typescript/no-var-requires`
+- bc8ac62: Add `__DEV__` and `__PROD__` as globals
+- 302aecd: Update `import/no-anonymous-default-export` to allow objects, arrays, and literals
+- 81c8ee0: Add `react` eslint config
+- 2e0dcce: Upgrade deps to latest
+
 ## 0.0.2-next.3
 
 ### Patch Changes

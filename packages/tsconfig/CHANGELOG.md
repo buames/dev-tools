@@ -1,5 +1,14 @@
 # @buames/tsconfig
 
+## 0.0.2
+
+### Patch Changes
+
+- a622d8c: Update all deps to latest
+- 004f397: Add tsconfig for nextjs projects
+- 302aecd: Enable `experimentalDecorators` by default
+- 004f397: Enable `noImplicitOverride` tsconfig option
+
 ## 0.0.2-next.1
 
 ### Patch Changes
