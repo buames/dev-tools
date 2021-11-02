@@ -1,5 +1,11 @@
 # @buames/eslint-config
 
+## 0.0.2-next.4
+
+### Patch Changes
+
+- f49c0d5: All named functions for prefer-arrow-callback rule
+
 ## 0.0.2-next.3
 
 ### Patch Changes

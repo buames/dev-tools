@@ -8,6 +8,7 @@
     "@buames/jest-preset": "0.0.0"
   },
   "changesets": [
+    "chilled-carpets-prove",
     "chilly-badgers-complain",
     "flat-lobsters-pump",
     "honest-apricots-exercise",
