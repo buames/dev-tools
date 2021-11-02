@@ -41,6 +41,8 @@ const config: Linter.Config = {
     'prefer-exponentiation-operator': 'error',
     'prefer-regex-literals': ['error', { disallowRedundantWrapping: true }],
 
+    'prefer-arrow-callback': ['error', { allowNamedFunctions: true }],
+
     // Overkill
     'require-unicode-regexp': 'off',
 
