@@ -55,5 +55,6 @@
     "type": "git",
     "url": "git@github.com:buames/dev-tools.git"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "packageManager": "yarn@3.1.0"
 }
