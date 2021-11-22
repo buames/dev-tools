@@ -16,7 +16,7 @@
     "typescript": ">=4.0.0"
   },
   "dependencies": {
-    "@types/jest": "27.0.2"
+    "@types/jest": "27.0.3"
   },
   "devDependencies": {
     "jest": "27.3.1",
