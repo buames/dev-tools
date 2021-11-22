@@ -1,5 +1,11 @@
 # @buames/jest-preset
 
+## 0.0.2
+
+### Patch Changes
+
+- 0c187a7: Upgrade all deps including eslint 8
+
 ## 0.0.2-next.0
 
 ### Patch Changes
