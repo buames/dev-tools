@@ -1,0 +1,11 @@
+{
+  "mode": "pre",
+  "tag": "next",
+  "initialVersions": {
+    "@buames/eslint-config": "0.0.3",
+    "@buames/jest-preset": "0.0.2",
+    "@buames/prettier-config": "0.0.3",
+    "@buames/tsconfig": "0.0.2"
+  },
+  "changesets": []
+}
