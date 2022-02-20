@@ -1,5 +1,11 @@
 # @buames/prettier-config
 
+## 0.0.4
+
+### Patch Changes
+
+- 42f6a40: Update all deps
+
 ## 0.0.4-next.0
 
 ### Patch Changes
