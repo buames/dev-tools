@@ -1,5 +1,17 @@
 # @buames/jest-preset
 
+## 0.0.3
+
+### Patch Changes
+
+- 42f6a40: Update all deps
+
+## 0.0.3-next.0
+
+### Patch Changes
+
+- 42f6a40: Update all deps
+
 ## 0.0.2
 
 ### Patch Changes

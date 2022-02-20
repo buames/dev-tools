@@ -3,6 +3,7 @@
   "display": "@buames with next.js",
   "extends": "./tsconfig.json",
   "compilerOptions": {
+    "incremental": true,
     "jsx": "preserve",
     "lib": ["DOM", "ESNext"],
     "module": "ESNext",
