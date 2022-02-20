@@ -1,6 +1,6 @@
 {
   "name": "@buames/jest-preset",
-  "version": "0.0.2",
+  "version": "0.0.3-next.0",
   "description": "@buames/jest-preset",
   "main": "./lib/index.js",
   "types": "./dts/index.d.ts",

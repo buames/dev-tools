@@ -1,5 +1,11 @@
 # @buames/tsconfig
 
+## 0.0.3-next.0
+
+### Patch Changes
+
+- 7436cc9: Add `incremental` and set it to `true`
+
 ## 0.0.2
 
 ### Patch Changes
